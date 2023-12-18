@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Gift Card Form</title>
+</head>
+<body>
+
+<div id="container">
+  <div id="content">
+    <h2>Enter your details to generate a new gift card:</h2>
+    <form id="form">
+      <label for="email">Email:</label>
+      <input required type="email" id="email" placeholder="Email">
+
+      <label for="balance">Balance:</label>
+      <input required type="text" id="balance" placeholder="Enter balance">
+
+      <label for="expiryDate">Expiry Date:</label>
+      <input required type="text" id="expiryDate" placeholder="Enter expiry date">
+
+      <label for="termsAndConditions">Terms and Conditions:</label>
+      <textarea id="termsAndConditions" placeholder="Enter terms and conditions"></textarea>
+
+      <input type="submit" value="Create gift card" id="submit">
+      <div id="button"></div>
+    </form>
+  </div>
+  <img id="pass" src="sample-pass.png" alt="Gift Card Image">
+</div>
+
+</body>
+</html>
